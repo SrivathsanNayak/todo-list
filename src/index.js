@@ -1,1 +1,1 @@
-document.querySelector("body").textContent = "Testing";
+console.log("From index.js");
