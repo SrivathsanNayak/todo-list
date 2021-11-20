@@ -1,1 +1,1 @@
-document.querySelector("body").textContent="Testing";
+(()=>{"use strict";const e=function(){const e=document.createElement("div"),t=function(){const e=document.createElement("nav"),t=document.createElement("div"),n=document.createElement("div"),c=document.createElement("div"),d=document.createElement("span");d.textContent="playlist_add_check_circle",d.classList.add("material-icons","logo");const o=document.createElement("h1");return o.textContent="ToDoList",o.classList.add("title"),t.append(d,o),e.append(t,n,c),e}();return e.append(t),e}();document.body.appendChild(e)})();

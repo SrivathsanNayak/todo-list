@@ -1,8 +1,15 @@
-import { header } from "./createHeader.js";
+import { createNavBar } from "./createHeader.js";
 
-const contentDiv = document.getElementById("content");
+function createUI() {
+    const contentDiv = document.createElement("div");
+    const header = createNavBar();
 
-contentDiv.append(header);
+    contentDiv.append(header);
+    
+    return contentDiv;
+}
+
+export { createUI };
 
 /*const header = document.createElement("header");
 const navBar = document.createElement("nav");
