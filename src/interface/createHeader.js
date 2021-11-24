@@ -25,6 +25,19 @@ function createNavBar() {
     searchButton.append(searchIcon);
     searchDiv.append(searchInput, searchButton);
 
+    const mode = document.createElement("span");
+    mode.textContent = "dark_mode";
+    mode.classList.add('material-icons', 'mode');
+
+    mode.addEventListener("click", () => {
+        if (mode.textContent === "dark_mode") {
+            mode.textContent = "light_mode";
+        } else if (mode.textContent === "light_mode") {
+            mode.textContent = "dark_mode";
+        }
+    });
+    modeSwitch.append(mode);
+
     navBar.append(logoTitle, searchDiv, modeSwitch);
 
     return navBar;
