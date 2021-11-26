@@ -20,8 +20,18 @@ function createMain() {
         }
     });
 
-    sideBar.textContent = "Hi";
-    todayDiv.textContent = "Hello";
+    /*Add function for adding titles of days (upper half) to sidebar*/
+    /*Add function for adding project titles (lower half) to sidebar*/
+    /*Notes+Stats to sidebar*/
+
+    /*Add function to render active day title*/
+    /*Add function to render table-type layout*/
+    /*Add function to populate table with contents*/
+
+    /*date-fns installed, refer docs for usage: https://date-fns.org/docs/Getting-Started/*/
+
+    // sideBar.textContent = "Hi";
+    // todayDiv.textContent = "Hello";
 
     main.append(sideBar, collapseSideBar, todayDiv);
 
