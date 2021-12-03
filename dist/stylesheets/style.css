@@ -1,6 +1,7 @@
 :root {
     --primary-color-1: #B2B1B9;
     --primary-color-2: #D5D5D5;
+    --primary-color-3: #EEEEEE;
 }
 
 * {
@@ -80,6 +81,7 @@ span.mode {
     width: 75%;
     float: right;
     height: auto;
+    background-color: var(--primary-color-3);
 }
 
 .collapse-side-bar {
@@ -92,6 +94,13 @@ span.mode {
 
 .show-side-bar {
     display: inherit !important; 
+}
+
+.period-heading {
+    margin: 2rem 0 2rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-decoration: underline;
 }
 
 /*Footer*/

@@ -26,12 +26,19 @@ function createMain() {
 
     /*Add function to render active day title*/
     /*Add function to render table-type layout*/
+    /*Add form to get input for todo*/
     /*Add function to populate table with contents*/
 
     /*date-fns installed, refer docs for usage: https://date-fns.org/docs/Getting-Started/*/
 
     // sideBar.textContent = "Hi";
     // todayDiv.textContent = "Hello";
+
+    const periodHeading = document.createElement("h2");
+    periodHeading.textContent = "Today";
+    periodHeading.classList.add('period-heading');
+    
+    todayDiv.append(periodHeading);
 
     main.append(sideBar, collapseSideBar, todayDiv);
 
